@@ -3,6 +3,7 @@ import * as path from 'path';
 
 // Tool interface definition
 interface ClankerTool {
+  id: string;
   name: string;
   description: string;
   version: string;
@@ -48,6 +49,7 @@ const OutputFormat = {
 } as const;
 
 const tool: ClankerTool = {
+  id: 'summarize',
   name: 'summarize',
   description: 'Intelligently summarize any content with various abstraction levels, modes, and output formats. Can extract insights, action items, key points, or create custom summaries based on your needs.',
   version: '1.1.0',
