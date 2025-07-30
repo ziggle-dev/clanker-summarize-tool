@@ -1,7 +1,7 @@
 {
   "name": "@ziggler/clanker-summarize-tool",
-  "version": "1.0.0",
-  "description": "Intelligently summarize text content into concise, structured markdown format",
+  "version": "1.1.0",
+  "description": "Intelligently summarize any content with various abstraction levels, modes, and output formats",
   "type": "module",
   "main": "src/index.ts",
   "author": {
@@ -13,13 +13,15 @@
   "license": "MIT",
   "clanker": {
     "category": "Utility",
-    "capabilities": ["file:read"],
+    "capabilities": ["file:read", "ai:access"],
     "tags": [
       "summarize",
-      "text",
+      "abstract",
       "analysis",
       "extract",
-      "condense"
+      "insights",
+      "ai",
+      "flexible"
     ],
     "minVersion": "0.2.6"
   },
